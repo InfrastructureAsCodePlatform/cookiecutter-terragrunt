@@ -1,0 +1,10 @@
+{
+  "__terraform_module_version": "github.com/twistedFantasy/terraform-modules-v2.git//aws-static-website-hosting?ref=v0.0.1",
+  "project_id": "",
+  "deployment_id": "",
+  "project": "",
+  "aws_region": "",
+  "environment": "",
+  "domain_prefix": "",
+  "owner": ""
+}
