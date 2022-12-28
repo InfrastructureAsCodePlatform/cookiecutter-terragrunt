@@ -8,7 +8,6 @@ inputs = {
 
   common_tags = {
     Environment = "{{cookiecutter.environment}}"
-    Owner = "{{cookiecutter.owner}}"
   }
 }
 
