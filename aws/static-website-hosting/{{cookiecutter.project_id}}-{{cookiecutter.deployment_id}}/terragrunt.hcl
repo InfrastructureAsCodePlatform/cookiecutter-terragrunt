@@ -27,10 +27,10 @@ remote_state {
   backend = "s3"
   config = {
     encrypt        = true
-    bucket         = "{{cookiecutter.project}}-{{cookiecutter.aws_region}}-{{cookiecutter.environment}}-terraform-state"
-    key            = "${path_relative_to_include()}/terraform.tfstate"
+    bucket         = "{{cookiecutter.project}}-{{cookiecutter.aws_region}}-{{cookiecutter.environment}}-tfstate"
+    key            = "${path_relative_to_include()}/aws-static-website-hosting/terraform.tfstate"
     region         = "{{cookiecutter.aws_region}}"
-    dynamodb_table = "{{cookiecutter.project}}-{{cookiecutter.aws_region}}-{{cookiecutter.environment}}-terraform-locks"
+    dynamodb_table = "{{cookiecutter.project}}-{{cookiecutter.aws_region}}-{{cookiecutter.environment}}-tflocks"
   }
   generate = {
     path      = "backend.tf"
