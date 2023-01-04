@@ -4,7 +4,7 @@ terraform {
 
 inputs = {
   repository = "{{cookiecutter.github_repository}}"
-  secrets    = {{cookiecutter.github_secrets}}
+  secrets    = "{{cookiecutter.github_secrets}}"
 }
 
 generate "provider" {
